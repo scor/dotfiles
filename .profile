@@ -1,4 +1,4 @@
-# add . "$HOME/git_config/.profile" to your local .profile or .bashrc to use.
+# add . "$HOME/shell_profile/.profile" to your local .profile or .bashrc to use.
 alias em='open -a Emacs.app'
 alias text='open -a /Applications/TextEdit.app/'
 alias t='tar zxvf'
