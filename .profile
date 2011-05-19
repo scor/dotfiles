@@ -20,6 +20,6 @@ alias gps='git push'
 alias gre='git reset --hard'
 
 # patch cleanup
-alias pcleanup=`find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -exec rm {} \;`
+alias pcleanup='find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -exec rm {} \;'
 
 alias phpe='tail /Applications/MAMP/logs/php_error.log'
