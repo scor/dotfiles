@@ -1,0 +1,16 @@
+[color]
+  ui = auto
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[core]
+  whitespace=fix,-indent-with-non-tab,-indent-with-tab,trailing-space,cr-at-eol
+[alias]
+  st = status
+  co = checkout
+[user]
+	name = scor
+	email = scorlosquet@gmail.com
