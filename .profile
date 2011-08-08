@@ -1,6 +1,4 @@
 # add . "$HOME/shell_profile/.profile" to your local .profile or .bashrc to use.
-alias em='open -a Emacs.app'
-alias text='open -a /Applications/TextEdit.app/'
 alias t='tar zxvf'
 alias T='tar zcvf'
 alias diff='diff -up'
@@ -22,8 +20,6 @@ alias gre='git reset --hard'
 # patch
 alias p='patch -p1'
 alias pcleanup='find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -exec rm {} \;'
-
-alias phpe='tail /Applications/MAMP/logs/php_error.log'
 
 
 
