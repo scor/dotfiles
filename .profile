@@ -21,7 +21,7 @@ alias gre='git reset --hard'
 alias p='patch -p1'
 alias pcleanup='find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -exec rm {} \;'
 
-
+export EDITOR=vim
 
 # from msonnabaum
 # ANSI color codes
