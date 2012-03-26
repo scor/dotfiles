@@ -15,3 +15,5 @@
 [user]
 	name = scor
 	email = scorlosquet@gmail.com
+[branch]
+	autosetuprebase = always
