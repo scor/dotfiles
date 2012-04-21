@@ -13,7 +13,7 @@ alias gbr='git branch'
 alias gst='git status'
 alias gci='git commit -m'
 alias gcia='git commit -am'
-alias gpl='git pull --rebase'
+alias gpl='git pull'
 alias gps='git push'
 alias gre='git reset --hard'
 
