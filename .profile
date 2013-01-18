@@ -23,6 +23,9 @@ alias pcleanup='find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -e
 
 export EDITOR=vim
 
+# homebrews should always take precedence
+export PATH=/usr/local/bin:$PATH
+
 # from chx
 export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
 export HISTSIZE=100000                   # big big history
