@@ -15,6 +15,12 @@
   # git sed 's/old-method-name/new-method-name/ig'
   sed = ! git grep -z --full-name -l '.' | xargs -0 perl -pi -e
   g = grep -ni
+  a = apply --index
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [user]
 	name = scor
 	email = scorlosquet@gmail.com
+[push]
+	default = tracking
+[branch]
+	autosetuprebase = always
