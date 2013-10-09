@@ -1,14 +1,12 @@
-# add . "$HOME/shell_profile/.profile" to your local .profile or .bashrc to use.
+# add this line at the bottom of your local .profile or .bashrc:
+# . "$HOME/dotfiles/.profile"
+
+# tar
 alias t='tar zxvf'
 alias T='tar zcvf'
-alias diff='diff -up'
-alias bdiff='bzr diff --diff-options -up'
-alias sd='svn diff'
-alias st='svn status'
 
 #git
 alias gdiff='git diff'
-alias gco='git checkout'
 alias gbr='git branch'
 alias gst='git status'
 alias gci='git commit -m'
@@ -110,7 +108,7 @@ function EXT_COLOR () { echo -ne "\033[38;5;$1m"; }
 
 # see also http://en.newinstance.it/2010/05/23/git-autocompletion-and-enhanced-bash-prompt/
 
-. ~/shell_profile/git-completion.bash
+. ~/dotfiles/git-completion.bash
 
 export GIT_PS1_SHOWDIRTYSTATE=true
 
