@@ -1,4 +1,4 @@
-# add this line at the bottom of your local .profile or .bashrc:
+# add this line at the bottom of your local .bash_profile, .profile or .bashrc:
 # . "$HOME/dotfiles/.profile"
 
 # tar
