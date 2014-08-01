@@ -1,7 +1,3 @@
 # add . "$HOME/shell_profile/.profile_mac" to your local .profile or .bashrc to use.
 alias em='open -a Emacs.app'
 alias text='open -a /Applications/TextEdit.app/'
-alias phpe='tail /Applications/MAMP/logs/php_error.log'
-
-# MAMP mysql commands support
-export PATH=$PATH:/Applications/MAMP/Library/bin
