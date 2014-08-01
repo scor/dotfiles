@@ -21,6 +21,10 @@ alias pcleanup='find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -e
 
 export EDITOR=vim
 
+#rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+
 # homebrews should always take precedence
 export PATH=/usr/local/bin:$PATH
 
