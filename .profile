@@ -19,6 +19,8 @@ alias gre='git reset --hard'
 alias p='patch -p1'
 alias pcleanup='find . \( -name "*.orig" -or -name "*.rej" -or -name ".#*" \) -exec rm {} \;'
 
+alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt'"
+
 export EDITOR=vim
 
 #rvm
